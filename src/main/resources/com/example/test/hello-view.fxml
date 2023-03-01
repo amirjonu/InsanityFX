@@ -1,16 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.geometry.Insets?>
-<?import javafx.scene.control.Label?>
-<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Circle?>
 
-<?import javafx.scene.control.Button?>
-<VBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml"
-      fx:controller="com.example.test.HelloController">
-    <padding>
-        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
-    </padding>
 
-    <Label fx:id="welcomeText"/>
-    <Button text="Hello!" onAction="#onHelloButtonClick"/>
-</VBox>
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="600.0">
+         <image>
+            <Image value="../../../img.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="388.0" fitWidth="579.0" layoutX="14.0" layoutY="6.0">
+         <image>
+            <Image value="../../../img_1.png"/>
+         </image>
+      </ImageView>
+      <ImageView fitHeight="388.0" fitWidth="579.0" layoutX="-28.0" layoutY="6.0">
+         <image>
+            <Image value="../../../img_1.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="388.0" fitWidth="579.0" layoutX="-67.0" layoutY="6.0">
+         <image>
+            <Image value="../../../img_1.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="388.0" fitWidth="579.0" layoutX="-112.0" layoutY="6.0">
+         <image>
+            <Image value="../../../img_1.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="400.0" fitWidth="491.0" layoutX="16.0">
+         <image>
+            <Image value="../../../img_2.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="400.0" fitWidth="491.0" layoutX="55.0">
+         <image>
+            <Image value="../../../img_2.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="400.0" fitWidth="491.0" layoutX="88.0">
+         <image>
+            <Image value="../../../img_2.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="400.0" fitWidth="491.0" layoutX="125.0">
+         <image>
+            <Image value="../../../img_2.png" />
+         </image>
+      </ImageView>
+      <Circle fill="#b3b4b5" layoutX="262.0" layoutY="241.0" radius="7.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="#b3b4b5" layoutX="311.0" layoutY="241.0" radius="7.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="#b3b4b5" layoutX="178.0" layoutY="241.0" radius="7.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="#b3b4b5" layoutX="141.0" layoutY="241.0" radius="7.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="#b3b4b5" layoutX="95.0" layoutY="241.0" radius="7.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="#b3b4b5" layoutX="216.0" layoutY="241.0" radius="7.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="#b3b4b5" layoutX="371.0" layoutY="241.0" radius="7.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="#b3b4b5" layoutX="420.0" layoutY="241.0" radius="7.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="#b3b4b5" layoutX="467.0" layoutY="241.0" radius="7.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="#b3b4b5" layoutX="507.0" layoutY="241.0" radius="7.0" stroke="BLACK" strokeType="INSIDE" />
+   </children>
+</Pane>
